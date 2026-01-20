@@ -19,23 +19,30 @@ def multiply(a, b):
 def divide(a, b):
     """Return the quotient of a and b. Raises an error if b is 0."""
     if b == 0:
-        print("Cannot divide by zero")
+        raise ValueError("Cannot divide by zero")
     return a / b
 
-#new added 
 
+# Advanced operations
 def power(base, exponent):
     """Raise base to the power of exponent."""
     return base ** exponent
 
+
 def square_root(number):
     """Calculate the square root of a number."""
     if number < 0:
-        print("Cannot calculate square root of a negative number")
+        raise ValueError("Cannot calculate square root of a negative number")
     return math.sqrt(number)
 
-def modulo(a,b):
-    """Calculate remainder of a divided by by."""
+
+def modulo(a, b):
+    """Calculate remainder of a divided by b."""
     if b == 0:
         raise ValueError("Cannot calculate modulo with zero")
     return a % b
+
+
+def absolute_value(number):
+    """Return the absolute value of a number."""
+    return abs(number)
