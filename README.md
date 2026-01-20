@@ -3,6 +3,9 @@
 
 A comprehensive calculator application demonstrating version control best practices.
 
+**Version:** 1.0.0
+
+
 Project Title: My Software Engineering Project
 Name: Christine Samons
 ID: 1299454
