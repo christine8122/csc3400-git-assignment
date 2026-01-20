@@ -1,4 +1,5 @@
 # calculator.py
+import math
 
 def add(a, b):
     """Return the sum of a and b."""
@@ -21,3 +22,14 @@ def divide(a, b):
         print("Cannot divide by zero")
     return a / b
 
+#new added 
+
+def power(base, exponent):
+    """Raise base to the power of exponent."""
+    return base ** exponent
+
+def square_root(number):
+    """Calculate the square root of a number."""
+    if number < 0:
+        print("Cannot calculate square root of a negative number")
+    return math.sqrt(number)
