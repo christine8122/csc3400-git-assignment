@@ -33,3 +33,9 @@ def square_root(number):
     if number < 0:
         print("Cannot calculate square root of a negative number")
     return math.sqrt(number)
+
+def modulo(a,b):
+    """Calculate remainder of a divided by by."""
+    if b == 0:
+        raise ValueError("Cannot calculate modulo with zero")
+    return a % b
