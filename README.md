@@ -1,4 +1,7 @@
-# Software Engineering Calculator Project
+# Advanced Calculator System
+## Software Engineering Calculator Project
+
+A comprehensive calculator application demonstrating version control best practices.
 
 Project Title: My Software Engineering Project
 Name: Christine Samons
